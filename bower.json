@@ -1,0 +1,16 @@
+{
+  "name": "cubillus",
+  "description": "4 all my projects",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "cubillus"
+  ],
+  "authors": [
+    "Carlos Ubillus Andrade"
+  ],
+  "license": "MT",
+  "homepage": "www.carlosubillus.com"
+}

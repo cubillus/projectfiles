@@ -1,0 +1,42 @@
+/* .css-form input.ng-invalid.ng-touched {
+    border: darkorange 2px solid;
+}
+
+.css-form input.ng-valid.ng-touched {
+    border: lightgreen 2px solid;
+}
+
+form input:focus {
+    border-width: 3px;
+}
+
+div.form-messages{
+  font-size:0.6em;
+  color: red;
+}*/
+
+
+/* AngularJS Form validation styling */
+.validation.help-block {
+    font-size:0.6em;
+    color: #E07676;
+    font-style: italic;
+}
+
+/* invalid & (dirty or touched) => red -- CSS3 only */
+.form-group .ng-invalid.ng-dirty:not(:focus),
+.form-group .ng-invalid.ng-touched:not(:focus) {
+      border: darkorange 1px solid;
+}
+
+/* valid & dirty => green */
+.form-group .ng-valid.ng-dirty.ng-touched {
+  border: lightgreen 2px solid;
+}
+
+/* error display font italic, text-danger is red in BS */
+.validation.text-danger {
+  font-size:0.6em;
+  color: red;
+  font-style: italic;
+}
